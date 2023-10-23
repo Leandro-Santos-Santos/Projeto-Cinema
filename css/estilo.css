@@ -1,19 +1,22 @@
 /* Altera a cor dos filmes que estreiam hoje para darkred */
-.p.hoje {
+.filme-hoje {
     color:darkred;
 }
 
 /* Altera a cor dos filmes que estreiam amanhã para darkblue */
-.p.amanha {
+.filme-amanha {
     color: darkblue;
 }
 
 /* Altera a cor dos links dentro de h2 para seagreen */
-h2 a {
+h2, a {
     color: seagreen;
 }
 
-.p. {
+p {
     font-size: 20px;
 }
 
+*{
+    font-family: Arial;
+}
